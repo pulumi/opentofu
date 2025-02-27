@@ -5,6 +5,7 @@ import (
 	"log"
 	"os"
 	"os/exec"
+	"path/filepath"
 	"strings"
 )
 
@@ -37,7 +38,25 @@ func main() {
 
 		newBytes := bytes.ReplaceAll(origBytes, search, repl)
 
+		search = []byte("internal/")
+		repl = []byte("")
+
+		newBytes = bytes.ReplaceAll(newBytes, search, repl)
+
 		if err := os.WriteFile(f, newBytes, 0700); err != nil {
+			log.Fatal(err)
+		}
+	}
+
+	internals, err := os.ReadDir("internal")
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	for _, subdir := range internals {
+		old := filepath.Join("internal", subdir.Name())
+		new := subdir.Name()
+		if err := os.Rename(old, new); err != nil {
 			log.Fatal(err)
 		}
 	}
