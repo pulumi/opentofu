@@ -47,22 +47,22 @@ type protocStep struct {
 var protocSteps = []protocStep{
 	{
 		"tfplugin5 (provider wire protocol version 5)",
-		"internal/tfplugin5",
+		"tfplugin5",
 		[]string{"--go_out=paths=source_relative,plugins=grpc:.", "./tfplugin5.proto"},
 	},
 	{
 		"tfplugin6 (provider wire protocol version 6)",
-		"internal/tfplugin6",
+		"tfplugin6",
 		[]string{"--go_out=paths=source_relative,plugins=grpc:.", "./tfplugin6.proto"},
 	},
 	{
 		"tfplan (plan file serialization)",
-		"internal/plans/internal/planproto",
+		"plans/planproto",
 		[]string{"--go_out=paths=source_relative:.", "planfile.proto"},
 	},
 	{
 		"cloudproto1 (cloud protocol version 1)",
-		"internal/cloudplugin/cloudproto1",
+		"cloudplugin/cloudproto1",
 		[]string{"--go_out=paths=source_relative,plugins=grpc:.", "cloudproto1.proto"},
 	},
 }
