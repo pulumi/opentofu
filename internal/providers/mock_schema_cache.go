@@ -1,6 +1,6 @@
 package providers
 
-import "github.com/opentofu/opentofu/internal/addrs"
+import "github.com/pulumi/opentofu/internal/addrs"
 
 func NewMockSchemaCache() *schemaCache {
 	return &schemaCache{

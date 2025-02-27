@@ -8,7 +8,7 @@ package json
 import (
 	"fmt"
 
-	"github.com/opentofu/opentofu/internal/plans"
+	"github.com/pulumi/opentofu/internal/plans"
 )
 
 func NewResourceInstanceChange(change *plans.ResourceInstanceChangeSrc) *ResourceInstanceChange {

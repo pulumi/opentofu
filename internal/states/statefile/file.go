@@ -8,8 +8,8 @@ package statefile
 import (
 	version "github.com/hashicorp/go-version"
 
-	"github.com/opentofu/opentofu/internal/encryption"
-	"github.com/opentofu/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/encryption"
+	"github.com/pulumi/opentofu/internal/states"
 	tfversion "github.com/opentofu/opentofu/version"
 )
 

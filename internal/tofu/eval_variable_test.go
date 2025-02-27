@@ -14,11 +14,11 @@ import (
 	"github.com/hashicorp/hcl/v2"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/checks"
-	"github.com/opentofu/opentofu/internal/lang"
-	"github.com/opentofu/opentofu/internal/lang/marks"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/checks"
+	"github.com/pulumi/opentofu/internal/lang"
+	"github.com/pulumi/opentofu/internal/lang/marks"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 func TestPrepareFinalInputVariableValue(t *testing.T) {

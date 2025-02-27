@@ -8,8 +8,8 @@ package providercache
 import (
 	"context"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/getproviders"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/getproviders"
 )
 
 // InstallerEvents is a collection of function references that can be

@@ -17,8 +17,8 @@ import (
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/opentofu/opentofu/internal/lang/marks"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/lang/marks"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 // These severities map to the tfdiags.Severity values, plus an explicit

@@ -14,10 +14,10 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/configs/configschema"
-	"github.com/opentofu/opentofu/internal/lang"
-	"github.com/opentofu/opentofu/internal/lang/blocktoattr"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/configs/configschema"
+	"github.com/pulumi/opentofu/internal/lang"
+	"github.com/pulumi/opentofu/internal/lang/blocktoattr"
 )
 
 // expression represents any unparsed expression

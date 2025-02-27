@@ -10,11 +10,11 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/configs/configschema"
-	"github.com/opentofu/opentofu/internal/lang"
-	"github.com/opentofu/opentofu/internal/providers"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/configs/configschema"
+	"github.com/pulumi/opentofu/internal/lang"
+	"github.com/pulumi/opentofu/internal/providers"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 // validateSelfRef checks to ensure that expressions within a particular

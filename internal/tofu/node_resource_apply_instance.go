@@ -9,14 +9,14 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/configs"
-	"github.com/opentofu/opentofu/internal/instances"
-	"github.com/opentofu/opentofu/internal/plans"
-	"github.com/opentofu/opentofu/internal/plans/objchange"
-	"github.com/opentofu/opentofu/internal/providers"
-	"github.com/opentofu/opentofu/internal/states"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/configs"
+	"github.com/pulumi/opentofu/internal/instances"
+	"github.com/pulumi/opentofu/internal/plans"
+	"github.com/pulumi/opentofu/internal/plans/objchange"
+	"github.com/pulumi/opentofu/internal/providers"
+	"github.com/pulumi/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 // NodeApplyableResourceInstance represents a resource instance that is

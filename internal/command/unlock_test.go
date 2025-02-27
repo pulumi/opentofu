@@ -10,9 +10,9 @@ import (
 	"testing"
 
 	"github.com/mitchellh/cli"
-	"github.com/opentofu/opentofu/internal/backend/remote-state/inmem"
+	"github.com/pulumi/opentofu/internal/backend/remote-state/inmem"
 
-	legacy "github.com/opentofu/opentofu/internal/legacy/tofu"
+	legacy "github.com/pulumi/opentofu/internal/legacy/tofu"
 )
 
 // Since we can't unlock a local state file, just test that calling unlock

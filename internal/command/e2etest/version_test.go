@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opentofu/opentofu/internal/e2e"
+	"github.com/pulumi/opentofu/internal/e2e"
 	"github.com/opentofu/opentofu/version"
 )
 

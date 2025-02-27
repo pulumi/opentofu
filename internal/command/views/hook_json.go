@@ -14,12 +14,12 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/command/format"
-	"github.com/opentofu/opentofu/internal/command/views/json"
-	"github.com/opentofu/opentofu/internal/plans"
-	"github.com/opentofu/opentofu/internal/states"
-	"github.com/opentofu/opentofu/internal/tofu"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/command/format"
+	"github.com/pulumi/opentofu/internal/command/views/json"
+	"github.com/pulumi/opentofu/internal/plans"
+	"github.com/pulumi/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/tofu"
 )
 
 // How long to wait between sending heartbeat/progress messages

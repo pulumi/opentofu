@@ -27,11 +27,11 @@ import (
 	"syscall"
 	"testing"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/backend"
-	"github.com/opentofu/opentofu/internal/configs"
-	"github.com/opentofu/opentofu/internal/encryption"
-	"github.com/opentofu/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/backend"
+	"github.com/pulumi/opentofu/internal/configs"
+	"github.com/pulumi/opentofu/internal/encryption"
+	"github.com/pulumi/opentofu/internal/states"
 	"github.com/zclconf/go-cty/cty"
 	"go.uber.org/mock/gomock"
 )

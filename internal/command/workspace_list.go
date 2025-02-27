@@ -12,7 +12,7 @@ import (
 
 	"github.com/posener/complete"
 
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 type WorkspaceListCommand struct {

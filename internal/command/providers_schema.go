@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/opentofu/opentofu/internal/backend"
-	"github.com/opentofu/opentofu/internal/command/arguments"
-	"github.com/opentofu/opentofu/internal/command/jsonprovider"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/backend"
+	"github.com/pulumi/opentofu/internal/command/arguments"
+	"github.com/pulumi/opentofu/internal/command/jsonprovider"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 // ProvidersSchemaCommand is a Command implementation that prints out information

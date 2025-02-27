@@ -6,8 +6,8 @@
 package tofu
 
 import (
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/configs"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/configs"
 )
 
 // LocalTransformer is a GraphTransformer that adds all the local values

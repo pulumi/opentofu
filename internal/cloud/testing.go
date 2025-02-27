@@ -28,19 +28,19 @@ import (
 	"github.com/mitchellh/colorstring"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/opentofu/opentofu/internal/backend"
-	"github.com/opentofu/opentofu/internal/configs"
-	"github.com/opentofu/opentofu/internal/configs/configschema"
-	"github.com/opentofu/opentofu/internal/encryption"
-	"github.com/opentofu/opentofu/internal/httpclient"
-	"github.com/opentofu/opentofu/internal/providers"
-	"github.com/opentofu/opentofu/internal/states"
-	"github.com/opentofu/opentofu/internal/states/statefile"
-	"github.com/opentofu/opentofu/internal/tfdiags"
-	"github.com/opentofu/opentofu/internal/tofu"
+	"github.com/pulumi/opentofu/internal/backend"
+	"github.com/pulumi/opentofu/internal/configs"
+	"github.com/pulumi/opentofu/internal/configs/configschema"
+	"github.com/pulumi/opentofu/internal/encryption"
+	"github.com/pulumi/opentofu/internal/httpclient"
+	"github.com/pulumi/opentofu/internal/providers"
+	"github.com/pulumi/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/states/statefile"
+	"github.com/pulumi/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/tofu"
 	"github.com/opentofu/opentofu/version"
 
-	backendLocal "github.com/opentofu/opentofu/internal/backend/local"
+	backendLocal "github.com/pulumi/opentofu/internal/backend/local"
 )
 
 const (

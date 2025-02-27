@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/dag"
-	"github.com/opentofu/opentofu/internal/logging"
-	"github.com/opentofu/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/dag"
+	"github.com/pulumi/opentofu/internal/logging"
+	"github.com/pulumi/opentofu/internal/states"
 )
 
 // ApplyMoves modifies in-place the given state object so that any existing

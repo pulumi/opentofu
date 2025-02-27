@@ -8,9 +8,9 @@ package tofu
 import (
 	"log"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/configs/configschema"
-	"github.com/opentofu/opentofu/internal/dag"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/configs/configschema"
+	"github.com/pulumi/opentofu/internal/dag"
 )
 
 // ResourceCountTransformer is a GraphTransformer that expands the count

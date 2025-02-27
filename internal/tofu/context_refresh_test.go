@@ -16,12 +16,12 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/configs/configschema"
-	"github.com/opentofu/opentofu/internal/configs/hcl2shim"
-	"github.com/opentofu/opentofu/internal/plans"
-	"github.com/opentofu/opentofu/internal/providers"
-	"github.com/opentofu/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/configs/configschema"
+	"github.com/pulumi/opentofu/internal/configs/hcl2shim"
+	"github.com/pulumi/opentofu/internal/plans"
+	"github.com/pulumi/opentofu/internal/providers"
+	"github.com/pulumi/opentofu/internal/states"
 )
 
 func TestContext2Refresh(t *testing.T) {

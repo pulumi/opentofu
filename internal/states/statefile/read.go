@@ -14,8 +14,8 @@ import (
 
 	version "github.com/hashicorp/go-version"
 
-	"github.com/opentofu/opentofu/internal/encryption"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/encryption"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 	tfversion "github.com/opentofu/opentofu/version"
 )
 

@@ -6,9 +6,9 @@
 package tofu
 
 import (
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/configs"
-	"github.com/opentofu/opentofu/internal/dag"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/configs"
+	"github.com/pulumi/opentofu/internal/dag"
 )
 
 var _ GraphTransformer = (*checkStartTransformer)(nil)

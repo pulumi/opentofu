@@ -11,13 +11,13 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/checks"
-	"github.com/opentofu/opentofu/internal/configs/configschema"
-	"github.com/opentofu/opentofu/internal/plans"
-	"github.com/opentofu/opentofu/internal/providers"
-	"github.com/opentofu/opentofu/internal/states"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/checks"
+	"github.com/pulumi/opentofu/internal/configs/configschema"
+	"github.com/pulumi/opentofu/internal/plans"
+	"github.com/pulumi/opentofu/internal/providers"
+	"github.com/pulumi/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 // This file contains 'integration' tests for the OpenTofu check blocks.

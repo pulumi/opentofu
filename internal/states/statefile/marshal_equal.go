@@ -8,8 +8,8 @@ package statefile
 import (
 	"bytes"
 
-	"github.com/opentofu/opentofu/internal/encryption"
-	"github.com/opentofu/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/encryption"
+	"github.com/pulumi/opentofu/internal/states"
 )
 
 // StatesMarshalEqual returns true if and only if the two given states have

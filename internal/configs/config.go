@@ -12,10 +12,10 @@ import (
 
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/hcl/v2"
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/depsfile"
-	"github.com/opentofu/opentofu/internal/getproviders"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/depsfile"
+	"github.com/pulumi/opentofu/internal/getproviders"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 // A Config is a node in the tree of modules within a configuration.

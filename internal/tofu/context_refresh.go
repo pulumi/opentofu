@@ -9,10 +9,10 @@ import (
 	"context"
 	"log"
 
-	"github.com/opentofu/opentofu/internal/configs"
-	"github.com/opentofu/opentofu/internal/plans"
-	"github.com/opentofu/opentofu/internal/states"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/configs"
+	"github.com/pulumi/opentofu/internal/plans"
+	"github.com/pulumi/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 // Refresh is a vestigial operation that is equivalent to call to Plan and

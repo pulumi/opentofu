@@ -22,9 +22,9 @@ import (
 	svcauth "github.com/hashicorp/terraform-svchost/auth"
 	"golang.org/x/net/idna"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/httpclient"
-	"github.com/opentofu/opentofu/internal/logging"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/httpclient"
+	"github.com/pulumi/opentofu/internal/logging"
 	"github.com/opentofu/opentofu/version"
 )
 

@@ -9,7 +9,7 @@ package xor
 import (
 	"fmt"
 
-	"github.com/opentofu/opentofu/internal/encryption/keyprovider"
+	"github.com/pulumi/opentofu/internal/encryption/keyprovider"
 )
 
 type xorKeyProvider struct {

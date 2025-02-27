@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/getproviders"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/getproviders"
 )
 
 // Dir represents a single local filesystem directory containing cached

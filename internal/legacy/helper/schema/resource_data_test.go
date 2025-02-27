@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/opentofu/opentofu/internal/legacy/tofu"
+	"github.com/pulumi/opentofu/internal/legacy/tofu"
 )
 
 func TestResourceDataGet(t *testing.T) {

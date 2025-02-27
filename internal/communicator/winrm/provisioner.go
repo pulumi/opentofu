@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/opentofu/opentofu/internal/communicator/shared"
+	"github.com/pulumi/opentofu/internal/communicator/shared"
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/gocty"
 )

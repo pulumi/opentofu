@@ -9,9 +9,9 @@ package statemgr
 // operations done against full state managers.
 
 import (
-	"github.com/opentofu/opentofu/internal/states"
-	"github.com/opentofu/opentofu/internal/states/statefile"
-	"github.com/opentofu/opentofu/internal/tofu"
+	"github.com/pulumi/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/states/statefile"
+	"github.com/pulumi/opentofu/internal/tofu"
 	"github.com/opentofu/opentofu/version"
 )
 

@@ -8,7 +8,7 @@ package configschema
 import (
 	"fmt"
 
-	"github.com/opentofu/opentofu/internal/lang/marks"
+	"github.com/pulumi/opentofu/internal/lang/marks"
 	"github.com/zclconf/go-cty/cty"
 )
 

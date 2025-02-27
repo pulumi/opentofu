@@ -13,8 +13,8 @@ import (
 
 	"github.com/mitchellh/cli"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/states"
 )
 
 func TestStateRm(t *testing.T) {

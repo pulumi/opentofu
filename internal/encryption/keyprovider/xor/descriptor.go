@@ -6,7 +6,7 @@
 package xor
 
 import (
-	"github.com/opentofu/opentofu/internal/encryption/keyprovider"
+	"github.com/pulumi/opentofu/internal/encryption/keyprovider"
 )
 
 func New() Descriptor {

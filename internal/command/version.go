@@ -12,9 +12,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/depsfile"
-	"github.com/opentofu/opentofu/internal/getproviders"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/depsfile"
+	"github.com/pulumi/opentofu/internal/getproviders"
 )
 
 // VersionCommand is a Command implementation prints the version.

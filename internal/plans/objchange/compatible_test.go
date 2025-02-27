@@ -12,9 +12,9 @@ import (
 	"github.com/apparentlymart/go-dump/dump"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/opentofu/opentofu/internal/configs/configschema"
-	"github.com/opentofu/opentofu/internal/lang/marks"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/configs/configschema"
+	"github.com/pulumi/opentofu/internal/lang/marks"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 func TestAssertObjectCompatible(t *testing.T) {

@@ -6,8 +6,8 @@
 package cloud
 
 import (
-	"github.com/opentofu/opentofu/internal/backend"
-	"github.com/opentofu/opentofu/internal/command/jsonformat"
+	"github.com/pulumi/opentofu/internal/backend"
+	"github.com/pulumi/opentofu/internal/command/jsonformat"
 )
 
 // CLIInit implements backend.CLI

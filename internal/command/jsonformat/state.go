@@ -10,11 +10,11 @@ import (
 
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/opentofu/opentofu/internal/command/jsonformat/computed"
-	"github.com/opentofu/opentofu/internal/command/jsonformat/differ"
-	"github.com/opentofu/opentofu/internal/command/jsonformat/structured"
-	"github.com/opentofu/opentofu/internal/command/jsonprovider"
-	"github.com/opentofu/opentofu/internal/command/jsonstate"
+	"github.com/pulumi/opentofu/internal/command/jsonformat/computed"
+	"github.com/pulumi/opentofu/internal/command/jsonformat/differ"
+	"github.com/pulumi/opentofu/internal/command/jsonformat/structured"
+	"github.com/pulumi/opentofu/internal/command/jsonprovider"
+	"github.com/pulumi/opentofu/internal/command/jsonstate"
 )
 
 type State struct {

@@ -8,11 +8,11 @@ package tofu
 import (
 	"log"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/configs"
-	"github.com/opentofu/opentofu/internal/dag"
-	"github.com/opentofu/opentofu/internal/lang"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/configs"
+	"github.com/pulumi/opentofu/internal/dag"
+	"github.com/pulumi/opentofu/internal/lang"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 type ConcreteModuleNodeFunc func(n *nodeExpandModule) dag.Vertex

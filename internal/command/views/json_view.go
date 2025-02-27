@@ -11,8 +11,8 @@ import (
 
 	"github.com/hashicorp/go-hclog"
 
-	"github.com/opentofu/opentofu/internal/command/views/json"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/command/views/json"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 	tfversion "github.com/opentofu/opentofu/version"
 )
 

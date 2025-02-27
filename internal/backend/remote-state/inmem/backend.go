@@ -13,12 +13,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/opentofu/opentofu/internal/backend"
-	"github.com/opentofu/opentofu/internal/encryption"
-	"github.com/opentofu/opentofu/internal/legacy/helper/schema"
-	statespkg "github.com/opentofu/opentofu/internal/states"
-	"github.com/opentofu/opentofu/internal/states/remote"
-	"github.com/opentofu/opentofu/internal/states/statemgr"
+	"github.com/pulumi/opentofu/internal/backend"
+	"github.com/pulumi/opentofu/internal/encryption"
+	"github.com/pulumi/opentofu/internal/legacy/helper/schema"
+	statespkg "github.com/pulumi/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/states/remote"
+	"github.com/pulumi/opentofu/internal/states/statemgr"
 )
 
 // we keep the states and locks in package-level variables, so that they can be

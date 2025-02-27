@@ -9,8 +9,8 @@ import (
 	"log"
 	"sync"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/checks"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/checks"
 	"github.com/zclconf/go-cty/cty"
 )
 

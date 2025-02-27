@@ -11,10 +11,10 @@ import (
 	"log"
 	"strings"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/dag"
-	"github.com/opentofu/opentofu/internal/logging"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/dag"
+	"github.com/pulumi/opentofu/internal/logging"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 // Graph represents the graph that OpenTofu uses to represent resources

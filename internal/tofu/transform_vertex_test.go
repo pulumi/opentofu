@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opentofu/opentofu/internal/dag"
+	"github.com/pulumi/opentofu/internal/dag"
 )
 
 func TestVertexTransformer_impl(t *testing.T) {

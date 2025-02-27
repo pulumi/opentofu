@@ -14,7 +14,7 @@ import (
 
 	svchost "github.com/hashicorp/terraform-svchost"
 
-	"github.com/opentofu/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/addrs"
 )
 
 // SearchLocalDirectory performs an immediate, one-off scan of the given base

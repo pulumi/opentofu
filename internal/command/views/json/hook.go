@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/plans"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/plans"
 )
 
 type Hook interface {

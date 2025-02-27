@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/configs"
-	"github.com/opentofu/opentofu/internal/dag"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/configs"
+	"github.com/pulumi/opentofu/internal/dag"
 )
 
 func testProviderTransformerGraph(t *testing.T, cfg *configs.Config) *Graph {

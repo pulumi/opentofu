@@ -16,10 +16,10 @@ import (
 	"github.com/zclconf/go-cty/cty/convert"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/opentofu/opentofu/internal/command/arguments"
-	"github.com/opentofu/opentofu/internal/repl"
-	"github.com/opentofu/opentofu/internal/states"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/command/arguments"
+	"github.com/pulumi/opentofu/internal/repl"
+	"github.com/pulumi/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 // The Output view renders either one or all outputs, depending on whether or

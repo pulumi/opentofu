@@ -11,12 +11,12 @@ import (
 	"os"
 	"strings"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/backend"
-	"github.com/opentofu/opentofu/internal/command/arguments"
-	"github.com/opentofu/opentofu/internal/repl"
-	"github.com/opentofu/opentofu/internal/tfdiags"
-	"github.com/opentofu/opentofu/internal/tofu"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/backend"
+	"github.com/pulumi/opentofu/internal/command/arguments"
+	"github.com/pulumi/opentofu/internal/repl"
+	"github.com/pulumi/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/tofu"
 
 	"github.com/mitchellh/cli"
 )

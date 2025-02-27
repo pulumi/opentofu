@@ -27,18 +27,18 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/gocty"
 
-	"github.com/opentofu/opentofu/internal/backend"
-	"github.com/opentofu/opentofu/internal/command/jsonformat"
-	"github.com/opentofu/opentofu/internal/configs/configschema"
-	"github.com/opentofu/opentofu/internal/encryption"
-	"github.com/opentofu/opentofu/internal/httpclient"
-	"github.com/opentofu/opentofu/internal/plans"
-	"github.com/opentofu/opentofu/internal/states/statemgr"
-	"github.com/opentofu/opentofu/internal/tfdiags"
-	"github.com/opentofu/opentofu/internal/tofu"
+	"github.com/pulumi/opentofu/internal/backend"
+	"github.com/pulumi/opentofu/internal/command/jsonformat"
+	"github.com/pulumi/opentofu/internal/configs/configschema"
+	"github.com/pulumi/opentofu/internal/encryption"
+	"github.com/pulumi/opentofu/internal/httpclient"
+	"github.com/pulumi/opentofu/internal/plans"
+	"github.com/pulumi/opentofu/internal/states/statemgr"
+	"github.com/pulumi/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/tofu"
 	tfversion "github.com/opentofu/opentofu/version"
 
-	backendLocal "github.com/opentofu/opentofu/internal/backend/local"
+	backendLocal "github.com/pulumi/opentofu/internal/backend/local"
 )
 
 const (

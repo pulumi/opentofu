@@ -23,7 +23,7 @@ import (
 	"github.com/bgentry/speakeasy"
 	"github.com/mattn/go-isatty"
 	"github.com/mitchellh/colorstring"
-	"github.com/opentofu/opentofu/internal/tofu"
+	"github.com/pulumi/opentofu/internal/tofu"
 )
 
 var defaultInputReader io.Reader

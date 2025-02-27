@@ -6,8 +6,8 @@
 package tofu
 
 import (
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 // GraphWalker is an interface that can be implemented that when used

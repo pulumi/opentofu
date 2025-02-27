@@ -14,12 +14,12 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	"go.uber.org/mock/gomock"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/configs/hcl2shim"
-	mockproto "github.com/opentofu/opentofu/internal/plugin/mock_proto"
-	"github.com/opentofu/opentofu/internal/providers"
-	"github.com/opentofu/opentofu/internal/tfdiags"
-	proto "github.com/opentofu/opentofu/internal/tfplugin5"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/configs/hcl2shim"
+	mockproto "github.com/pulumi/opentofu/internal/plugin/mock_proto"
+	"github.com/pulumi/opentofu/internal/providers"
+	"github.com/pulumi/opentofu/internal/tfdiags"
+	proto "github.com/pulumi/opentofu/internal/tfplugin5"
 )
 
 var _ providers.Interface = (*GRPCProvider)(nil)

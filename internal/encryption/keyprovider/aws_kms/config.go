@@ -16,9 +16,9 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/kms/types"
 	awsbase "github.com/hashicorp/aws-sdk-go-base/v2"
 	baselogging "github.com/hashicorp/aws-sdk-go-base/v2/logging"
-	"github.com/opentofu/opentofu/internal/encryption/keyprovider"
-	"github.com/opentofu/opentofu/internal/httpclient"
-	"github.com/opentofu/opentofu/internal/logging"
+	"github.com/pulumi/opentofu/internal/encryption/keyprovider"
+	"github.com/pulumi/opentofu/internal/httpclient"
+	"github.com/pulumi/opentofu/internal/logging"
 	"github.com/opentofu/opentofu/version"
 )
 

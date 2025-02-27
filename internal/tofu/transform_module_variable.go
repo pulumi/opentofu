@@ -10,13 +10,13 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/dag"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/dag"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 
 	"github.com/hashicorp/hcl/v2"
 
-	"github.com/opentofu/opentofu/internal/configs"
+	"github.com/pulumi/opentofu/internal/configs"
 )
 
 // ModuleVariableTransformer is a GraphTransformer that adds all the variables

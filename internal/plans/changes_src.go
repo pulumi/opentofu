@@ -8,8 +8,8 @@ package plans
 import (
 	"fmt"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/states"
 	"github.com/zclconf/go-cty/cty"
 )
 

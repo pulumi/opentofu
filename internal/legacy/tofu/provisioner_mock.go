@@ -9,7 +9,7 @@ package tofu
 import (
 	"sync"
 
-	"github.com/opentofu/opentofu/internal/provisioners"
+	"github.com/pulumi/opentofu/internal/provisioners"
 )
 
 var _ provisioners.Interface = (*MockProvisioner)(nil)

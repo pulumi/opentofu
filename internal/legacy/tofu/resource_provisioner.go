@@ -6,8 +6,8 @@
 package tofu
 
 import (
-	"github.com/opentofu/opentofu/internal/configs/configschema"
-	"github.com/opentofu/opentofu/internal/provisioners"
+	"github.com/pulumi/opentofu/internal/configs/configschema"
+	"github.com/pulumi/opentofu/internal/provisioners"
 )
 
 // ResourceProvisioner is an interface that must be implemented by any

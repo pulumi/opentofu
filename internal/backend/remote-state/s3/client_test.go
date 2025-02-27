@@ -14,11 +14,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/opentofu/opentofu/internal/backend"
-	"github.com/opentofu/opentofu/internal/encryption"
-	"github.com/opentofu/opentofu/internal/states/remote"
-	"github.com/opentofu/opentofu/internal/states/statefile"
-	"github.com/opentofu/opentofu/internal/states/statemgr"
+	"github.com/pulumi/opentofu/internal/backend"
+	"github.com/pulumi/opentofu/internal/encryption"
+	"github.com/pulumi/opentofu/internal/states/remote"
+	"github.com/pulumi/opentofu/internal/states/statefile"
+	"github.com/pulumi/opentofu/internal/states/statemgr"
 )
 
 func TestRemoteClient_impl(t *testing.T) {

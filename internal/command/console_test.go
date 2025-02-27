@@ -13,9 +13,9 @@ import (
 	"testing"
 
 	"github.com/mitchellh/cli"
-	"github.com/opentofu/opentofu/internal/configs/configschema"
-	"github.com/opentofu/opentofu/internal/providers"
-	"github.com/opentofu/opentofu/internal/terminal"
+	"github.com/pulumi/opentofu/internal/configs/configschema"
+	"github.com/pulumi/opentofu/internal/providers"
+	"github.com/pulumi/opentofu/internal/terminal"
 	"github.com/zclconf/go-cty/cty"
 )
 

@@ -13,9 +13,9 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/getproviders"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/getproviders"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 func TestLoadLocksFromFile(t *testing.T) {

@@ -12,13 +12,13 @@ import (
 	"io"
 	"os"
 
-	"github.com/opentofu/opentofu/internal/configs"
-	"github.com/opentofu/opentofu/internal/configs/configload"
-	"github.com/opentofu/opentofu/internal/depsfile"
-	"github.com/opentofu/opentofu/internal/encryption"
-	"github.com/opentofu/opentofu/internal/plans"
-	"github.com/opentofu/opentofu/internal/states/statefile"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/configs"
+	"github.com/pulumi/opentofu/internal/configs/configload"
+	"github.com/pulumi/opentofu/internal/depsfile"
+	"github.com/pulumi/opentofu/internal/encryption"
+	"github.com/pulumi/opentofu/internal/plans"
+	"github.com/pulumi/opentofu/internal/states/statefile"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 const tfstateFilename = "tfstate"

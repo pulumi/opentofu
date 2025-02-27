@@ -12,8 +12,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opentofu/opentofu/internal/e2e"
-	"github.com/opentofu/opentofu/internal/plans"
+	"github.com/pulumi/opentofu/internal/e2e"
+	"github.com/pulumi/opentofu/internal/plans"
 )
 
 // TestPlanApplyInAutomation runs through the "main case" of init, plan, apply

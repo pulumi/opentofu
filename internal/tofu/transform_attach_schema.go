@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/opentofu/opentofu/internal/configs"
-	"github.com/opentofu/opentofu/internal/configs/configschema"
-	"github.com/opentofu/opentofu/internal/dag"
+	"github.com/pulumi/opentofu/internal/configs"
+	"github.com/pulumi/opentofu/internal/configs/configschema"
+	"github.com/pulumi/opentofu/internal/dag"
 )
 
 // GraphNodeAttachResourceSchema is an interface implemented by node types

@@ -18,16 +18,16 @@ import (
 	"github.com/google/go-cmp/cmp/cmpopts"
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/hclparse"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 	svchost "github.com/hashicorp/terraform-svchost"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/depsfile"
-	"github.com/opentofu/opentofu/internal/getproviders"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/depsfile"
+	"github.com/pulumi/opentofu/internal/getproviders"
 )
 
 func TestConfigProviderTypes(t *testing.T) {

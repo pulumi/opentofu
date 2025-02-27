@@ -6,8 +6,8 @@
 package arguments
 
 import (
-	"github.com/opentofu/opentofu/internal/configs"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/configs"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 // Test represents the command-line arguments for the test command.

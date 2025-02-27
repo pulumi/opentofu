@@ -10,13 +10,13 @@ import (
 	"sort"
 	"time"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/encryption"
-	"github.com/opentofu/opentofu/internal/states"
-	"github.com/opentofu/opentofu/internal/states/statemgr"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/encryption"
+	"github.com/pulumi/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/states/statemgr"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 
-	backendLocal "github.com/opentofu/opentofu/internal/backend/local"
+	backendLocal "github.com/pulumi/opentofu/internal/backend/local"
 )
 
 // StateMeta is the meta struct that should be embedded in state subcommands.

@@ -13,9 +13,9 @@ import (
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/getmodules"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/getmodules"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 // TestCommand represents the OpenTofu a given run block will execute, plan

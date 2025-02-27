@@ -17,11 +17,11 @@ import (
 	svchost "github.com/hashicorp/terraform-svchost"
 	"github.com/hashicorp/terraform-svchost/disco"
 
-	"github.com/opentofu/opentofu/internal/command/cliconfig"
-	oauthserver "github.com/opentofu/opentofu/internal/command/testdata/login-oauth-server"
-	tfeserver "github.com/opentofu/opentofu/internal/command/testdata/login-tfe-server"
-	"github.com/opentofu/opentofu/internal/command/webbrowser"
-	"github.com/opentofu/opentofu/internal/httpclient"
+	"github.com/pulumi/opentofu/internal/command/cliconfig"
+	oauthserver "github.com/pulumi/opentofu/internal/command/testdata/login-oauth-server"
+	tfeserver "github.com/pulumi/opentofu/internal/command/testdata/login-tfe-server"
+	"github.com/pulumi/opentofu/internal/command/webbrowser"
+	"github.com/pulumi/opentofu/internal/httpclient"
 	"github.com/opentofu/opentofu/version"
 )
 

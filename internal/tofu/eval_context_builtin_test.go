@@ -10,8 +10,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/providers"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/providers"
 	"github.com/zclconf/go-cty/cty"
 )
 

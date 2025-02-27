@@ -11,8 +11,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/opentofu/opentofu/internal/command/clistate"
-	"github.com/opentofu/opentofu/internal/states/statemgr"
+	"github.com/pulumi/opentofu/internal/command/clistate"
+	"github.com/pulumi/opentofu/internal/states/statemgr"
 )
 
 func main() {

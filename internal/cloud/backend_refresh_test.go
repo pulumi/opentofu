@@ -13,14 +13,14 @@ import (
 
 	"github.com/mitchellh/cli"
 
-	"github.com/opentofu/opentofu/internal/backend"
-	"github.com/opentofu/opentofu/internal/command/arguments"
-	"github.com/opentofu/opentofu/internal/command/clistate"
-	"github.com/opentofu/opentofu/internal/command/views"
-	"github.com/opentofu/opentofu/internal/initwd"
-	"github.com/opentofu/opentofu/internal/plans"
-	"github.com/opentofu/opentofu/internal/states/statemgr"
-	"github.com/opentofu/opentofu/internal/terminal"
+	"github.com/pulumi/opentofu/internal/backend"
+	"github.com/pulumi/opentofu/internal/command/arguments"
+	"github.com/pulumi/opentofu/internal/command/clistate"
+	"github.com/pulumi/opentofu/internal/command/views"
+	"github.com/pulumi/opentofu/internal/initwd"
+	"github.com/pulumi/opentofu/internal/plans"
+	"github.com/pulumi/opentofu/internal/states/statemgr"
+	"github.com/pulumi/opentofu/internal/terminal"
 )
 
 func testOperationRefresh(t *testing.T, configDir string) (*backend.Operation, func(), func(*testing.T) *terminal.TestOutput) {

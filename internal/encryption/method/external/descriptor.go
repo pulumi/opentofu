@@ -6,7 +6,7 @@
 package external
 
 import (
-	"github.com/opentofu/opentofu/internal/encryption/method"
+	"github.com/pulumi/opentofu/internal/encryption/method"
 )
 
 // Descriptor integrates the method.Descriptor and provides a TypedConfig for easier configuration.

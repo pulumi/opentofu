@@ -10,7 +10,7 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/opentofu/opentofu/internal/providers"
+	"github.com/pulumi/opentofu/internal/providers"
 )
 
 func TestMarshalSchemas(t *testing.T) {

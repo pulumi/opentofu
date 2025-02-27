@@ -21,14 +21,14 @@ import (
 	version "github.com/hashicorp/go-version"
 	svchost "github.com/hashicorp/terraform-svchost"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/configs"
-	"github.com/opentofu/opentofu/internal/configs/configload"
-	"github.com/opentofu/opentofu/internal/copy"
-	"github.com/opentofu/opentofu/internal/registry"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/configs"
+	"github.com/pulumi/opentofu/internal/configs/configload"
+	"github.com/pulumi/opentofu/internal/copy"
+	"github.com/pulumi/opentofu/internal/registry"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 
-	_ "github.com/opentofu/opentofu/internal/logging"
+	_ "github.com/pulumi/opentofu/internal/logging"
 )
 
 func TestMain(m *testing.M) {

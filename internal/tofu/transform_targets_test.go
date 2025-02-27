@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opentofu/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/addrs"
 )
 
 func TestTargetsTransformer(t *testing.T) {

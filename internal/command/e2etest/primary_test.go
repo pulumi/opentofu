@@ -13,8 +13,8 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/opentofu/opentofu/internal/e2e"
-	"github.com/opentofu/opentofu/internal/plans"
+	"github.com/pulumi/opentofu/internal/e2e"
+	"github.com/pulumi/opentofu/internal/plans"
 	"github.com/zclconf/go-cty/cty"
 )
 

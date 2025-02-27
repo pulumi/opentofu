@@ -6,7 +6,7 @@
 package plans
 
 import (
-	"github.com/opentofu/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/states"
 )
 
 // PlannedState merges the set of changes described by the receiver into the

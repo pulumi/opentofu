@@ -16,9 +16,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/states"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 // Changes line endings from Windows-style ('\r\n') to Unix-style ('\n').

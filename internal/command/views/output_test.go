@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opentofu/opentofu/internal/command/arguments"
-	"github.com/opentofu/opentofu/internal/states"
-	"github.com/opentofu/opentofu/internal/terminal"
+	"github.com/pulumi/opentofu/internal/command/arguments"
+	"github.com/pulumi/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/terminal"
 	"github.com/zclconf/go-cty/cty"
 )
 

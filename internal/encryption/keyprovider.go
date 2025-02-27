@@ -10,16 +10,16 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/configs"
-	"github.com/opentofu/opentofu/internal/encryption/config"
-	"github.com/opentofu/opentofu/internal/lang"
-	"github.com/opentofu/opentofu/internal/lang/marks"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/configs"
+	"github.com/pulumi/opentofu/internal/encryption/config"
+	"github.com/pulumi/opentofu/internal/lang"
+	"github.com/pulumi/opentofu/internal/lang/marks"
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/gohcl"
-	"github.com/opentofu/opentofu/internal/encryption/keyprovider"
-	"github.com/opentofu/opentofu/internal/encryption/registry"
+	"github.com/pulumi/opentofu/internal/encryption/keyprovider"
+	"github.com/pulumi/opentofu/internal/encryption/registry"
 	"github.com/zclconf/go-cty/cty"
 )
 

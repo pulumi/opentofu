@@ -12,11 +12,11 @@ import (
 
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/opentofu/opentofu/internal/command/jsonformat/collections"
-	"github.com/opentofu/opentofu/internal/command/jsonformat/computed"
-	"github.com/opentofu/opentofu/internal/command/jsonformat/structured"
-	"github.com/opentofu/opentofu/internal/command/jsonformat/structured/attribute_path"
-	"github.com/opentofu/opentofu/internal/plans"
+	"github.com/pulumi/opentofu/internal/command/jsonformat/collections"
+	"github.com/pulumi/opentofu/internal/command/jsonformat/computed"
+	"github.com/pulumi/opentofu/internal/command/jsonformat/structured"
+	"github.com/pulumi/opentofu/internal/command/jsonformat/structured/attribute_path"
+	"github.com/pulumi/opentofu/internal/plans"
 )
 
 var _ computed.DiffRenderer = (*primitiveRenderer)(nil)

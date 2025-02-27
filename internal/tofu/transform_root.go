@@ -6,8 +6,8 @@
 package tofu
 
 import (
-	"github.com/opentofu/opentofu/internal/configs"
-	"github.com/opentofu/opentofu/internal/dag"
+	"github.com/pulumi/opentofu/internal/configs"
+	"github.com/pulumi/opentofu/internal/dag"
 )
 
 const rootNodeName = "root"

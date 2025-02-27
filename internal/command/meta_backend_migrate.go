@@ -16,16 +16,16 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/opentofu/opentofu/internal/backend"
-	"github.com/opentofu/opentofu/internal/backend/remote"
-	"github.com/opentofu/opentofu/internal/cloud"
-	"github.com/opentofu/opentofu/internal/command/arguments"
-	"github.com/opentofu/opentofu/internal/command/clistate"
-	"github.com/opentofu/opentofu/internal/command/views"
-	"github.com/opentofu/opentofu/internal/encryption"
-	"github.com/opentofu/opentofu/internal/states"
-	"github.com/opentofu/opentofu/internal/states/statemgr"
-	"github.com/opentofu/opentofu/internal/tofu"
+	"github.com/pulumi/opentofu/internal/backend"
+	"github.com/pulumi/opentofu/internal/backend/remote"
+	"github.com/pulumi/opentofu/internal/cloud"
+	"github.com/pulumi/opentofu/internal/command/arguments"
+	"github.com/pulumi/opentofu/internal/command/clistate"
+	"github.com/pulumi/opentofu/internal/command/views"
+	"github.com/pulumi/opentofu/internal/encryption"
+	"github.com/pulumi/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/states/statemgr"
+	"github.com/pulumi/opentofu/internal/tofu"
 )
 
 type backendMigrateOpts struct {

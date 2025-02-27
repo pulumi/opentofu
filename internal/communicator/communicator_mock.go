@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/opentofu/opentofu/internal/communicator/remote"
-	"github.com/opentofu/opentofu/internal/provisioners"
+	"github.com/pulumi/opentofu/internal/communicator/remote"
+	"github.com/pulumi/opentofu/internal/provisioners"
 )
 
 // MockCommunicator is an implementation of Communicator that can be used for tests.

@@ -6,8 +6,8 @@
 package tofu
 
 import (
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 // NodeEvalableProvider represents a provider during an "eval" walk.

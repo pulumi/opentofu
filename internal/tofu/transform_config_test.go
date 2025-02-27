@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opentofu/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/addrs"
 )
 
 func TestConfigTransformer_nilModule(t *testing.T) {

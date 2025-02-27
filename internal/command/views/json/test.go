@@ -8,7 +8,7 @@ package json
 import (
 	"strings"
 
-	"github.com/opentofu/opentofu/internal/moduletest"
+	"github.com/pulumi/opentofu/internal/moduletest"
 )
 
 type TestSuiteAbstract map[string][]string

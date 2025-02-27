@@ -11,9 +11,9 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/opentofu/opentofu/internal/states"
-	"github.com/opentofu/opentofu/internal/states/statemgr"
-	"github.com/opentofu/opentofu/internal/tofu"
+	"github.com/pulumi/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/states/statemgr"
+	"github.com/pulumi/opentofu/internal/tofu"
 )
 
 func TestStateHook_impl(t *testing.T) {

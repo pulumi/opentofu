@@ -10,9 +10,9 @@ import (
 	"reflect"
 	"sort"
 
-	"github.com/opentofu/opentofu/internal/configs/configschema"
-	"github.com/opentofu/opentofu/internal/providers"
-	proto "github.com/opentofu/opentofu/internal/tfplugin6"
+	"github.com/pulumi/opentofu/internal/configs/configschema"
+	"github.com/pulumi/opentofu/internal/providers"
+	proto "github.com/pulumi/opentofu/internal/tfplugin6"
 	"github.com/zclconf/go-cty/cty"
 )
 

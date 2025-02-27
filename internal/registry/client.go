@@ -23,10 +23,10 @@ import (
 	svchost "github.com/hashicorp/terraform-svchost"
 	"github.com/hashicorp/terraform-svchost/disco"
 
-	"github.com/opentofu/opentofu/internal/httpclient"
-	"github.com/opentofu/opentofu/internal/logging"
-	"github.com/opentofu/opentofu/internal/registry/regsrc"
-	"github.com/opentofu/opentofu/internal/registry/response"
+	"github.com/pulumi/opentofu/internal/httpclient"
+	"github.com/pulumi/opentofu/internal/logging"
+	"github.com/pulumi/opentofu/internal/registry/regsrc"
+	"github.com/pulumi/opentofu/internal/registry/response"
 	"github.com/opentofu/opentofu/version"
 )
 

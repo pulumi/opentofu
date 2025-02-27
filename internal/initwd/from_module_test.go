@@ -15,11 +15,11 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	version "github.com/hashicorp/go-version"
-	"github.com/opentofu/opentofu/internal/configs"
-	"github.com/opentofu/opentofu/internal/configs/configload"
-	"github.com/opentofu/opentofu/internal/copy"
-	"github.com/opentofu/opentofu/internal/registry"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/configs"
+	"github.com/pulumi/opentofu/internal/configs/configload"
+	"github.com/pulumi/opentofu/internal/copy"
+	"github.com/pulumi/opentofu/internal/registry"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 func TestDirFromModule_registry(t *testing.T) {

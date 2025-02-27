@@ -12,12 +12,12 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 
-	"github.com/opentofu/opentofu/internal/backend"
-	"github.com/opentofu/opentofu/internal/encryption"
-	statespkg "github.com/opentofu/opentofu/internal/states"
-	"github.com/opentofu/opentofu/internal/states/remote"
+	"github.com/pulumi/opentofu/internal/backend"
+	"github.com/pulumi/opentofu/internal/encryption"
+	statespkg "github.com/pulumi/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/states/remote"
 
-	_ "github.com/opentofu/opentofu/internal/logging"
+	_ "github.com/pulumi/opentofu/internal/logging"
 )
 
 func TestMain(m *testing.M) {

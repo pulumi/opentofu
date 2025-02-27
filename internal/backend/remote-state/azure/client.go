@@ -16,8 +16,8 @@ import (
 
 	"github.com/hashicorp/go-multierror"
 	"github.com/hashicorp/go-uuid"
-	"github.com/opentofu/opentofu/internal/states/remote"
-	"github.com/opentofu/opentofu/internal/states/statemgr"
+	"github.com/pulumi/opentofu/internal/states/remote"
+	"github.com/pulumi/opentofu/internal/states/statemgr"
 	"github.com/tombuildsstuff/giovanni/storage/2018-11-09/blob/blobs"
 )
 

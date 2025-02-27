@@ -8,9 +8,9 @@ package renderers
 import (
 	"fmt"
 
-	"github.com/opentofu/opentofu/internal/command/jsonformat/computed"
+	"github.com/pulumi/opentofu/internal/command/jsonformat/computed"
 
-	"github.com/opentofu/opentofu/internal/plans"
+	"github.com/pulumi/opentofu/internal/plans"
 )
 
 var _ computed.DiffRenderer = (*unknownRenderer)(nil)

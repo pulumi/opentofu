@@ -9,10 +9,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/opentofu/opentofu/internal/command/arguments"
-	"github.com/opentofu/opentofu/internal/command/format"
-	viewsjson "github.com/opentofu/opentofu/internal/command/views/json"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/command/arguments"
+	"github.com/pulumi/opentofu/internal/command/format"
+	viewsjson "github.com/pulumi/opentofu/internal/command/views/json"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 // The Validate is used for the validate command.

@@ -14,7 +14,7 @@ import (
 	"sync"
 
 	"github.com/go-viper/mapstructure/v2"
-	"github.com/opentofu/opentofu/internal/legacy/tofu"
+	"github.com/pulumi/opentofu/internal/legacy/tofu"
 )
 
 // ConfigFieldReader reads fields out of an untyped map[string]string to the

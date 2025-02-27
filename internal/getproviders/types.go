@@ -13,8 +13,8 @@ import (
 
 	"github.com/apparentlymart/go-versions/versions"
 	"github.com/apparentlymart/go-versions/versions/constraints"
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 // Version represents a particular single version of a provider.

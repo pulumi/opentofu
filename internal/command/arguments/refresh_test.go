@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/opentofu/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/addrs"
 )
 
 func TestParseRefresh_basicValid(t *testing.T) {

@@ -8,8 +8,8 @@ package tofu
 import (
 	"log"
 
-	"github.com/opentofu/opentofu/internal/dag"
-	"github.com/opentofu/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/dag"
+	"github.com/pulumi/opentofu/internal/states"
 )
 
 // GraphNodeAttachResourceState is an interface that can be implemented

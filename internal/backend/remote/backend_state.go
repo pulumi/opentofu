@@ -17,11 +17,11 @@ import (
 
 	tfe "github.com/hashicorp/go-tfe"
 
-	"github.com/opentofu/opentofu/internal/command/jsonstate"
-	"github.com/opentofu/opentofu/internal/encryption"
-	"github.com/opentofu/opentofu/internal/states/remote"
-	"github.com/opentofu/opentofu/internal/states/statefile"
-	"github.com/opentofu/opentofu/internal/states/statemgr"
+	"github.com/pulumi/opentofu/internal/command/jsonstate"
+	"github.com/pulumi/opentofu/internal/encryption"
+	"github.com/pulumi/opentofu/internal/states/remote"
+	"github.com/pulumi/opentofu/internal/states/statefile"
+	"github.com/pulumi/opentofu/internal/states/statemgr"
 )
 
 type remoteClient struct {

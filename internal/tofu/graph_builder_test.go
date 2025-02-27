@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opentofu/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/addrs"
 
-	"github.com/opentofu/opentofu/internal/dag"
+	"github.com/pulumi/opentofu/internal/dag"
 )
 
 func TestBasicGraphBuilder_impl(t *testing.T) {

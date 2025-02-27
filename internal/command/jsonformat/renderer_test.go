@@ -8,9 +8,9 @@ package jsonformat
 import (
 	"testing"
 
-	"github.com/opentofu/opentofu/internal/command/jsonplan"
-	"github.com/opentofu/opentofu/internal/command/jsonprovider"
-	"github.com/opentofu/opentofu/internal/command/jsonstate"
+	"github.com/pulumi/opentofu/internal/command/jsonplan"
+	"github.com/pulumi/opentofu/internal/command/jsonprovider"
+	"github.com/pulumi/opentofu/internal/command/jsonstate"
 )
 
 func TestIncompatibleVersions(t *testing.T) {

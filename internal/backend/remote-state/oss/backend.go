@@ -33,10 +33,10 @@ import (
 	"github.com/jmespath/go-jmespath"
 	"github.com/mitchellh/go-homedir"
 
-	"github.com/opentofu/opentofu/internal/backend"
-	"github.com/opentofu/opentofu/internal/encryption"
-	"github.com/opentofu/opentofu/internal/httpclient"
-	"github.com/opentofu/opentofu/internal/legacy/helper/schema"
+	"github.com/pulumi/opentofu/internal/backend"
+	"github.com/pulumi/opentofu/internal/encryption"
+	"github.com/pulumi/opentofu/internal/httpclient"
+	"github.com/pulumi/opentofu/internal/legacy/helper/schema"
 	"github.com/opentofu/opentofu/version"
 )
 

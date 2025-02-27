@@ -8,8 +8,8 @@ package cloud
 import (
 	"testing"
 
-	"github.com/opentofu/opentofu/internal/configs"
-	legacy "github.com/opentofu/opentofu/internal/legacy/tofu"
+	"github.com/pulumi/opentofu/internal/configs"
+	legacy "github.com/pulumi/opentofu/internal/legacy/tofu"
 )
 
 func TestDetectConfigChangeType(t *testing.T) {

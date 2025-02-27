@@ -9,7 +9,7 @@ import (
 	"fmt"
 
 	"github.com/hashicorp/hcl/v2"
-	"github.com/opentofu/opentofu/internal/experiments"
+	"github.com/pulumi/opentofu/internal/experiments"
 	"github.com/opentofu/opentofu/version"
 )
 
@@ -17,7 +17,7 @@ import (
 // the experiment warning by setting this package-level variable to a non-empty
 // value using a link-time flag:
 //
-// go install -ldflags="-X 'github.com/opentofu/opentofu/internal/configs.disableExperimentWarnings=yes'"
+// go install -ldflags="-X 'github.com/pulumi/opentofu/internal/configs.disableExperimentWarnings=yes'"
 //
 // This functionality is for development purposes only and is not a feature we
 // are committing to supporting for end users.

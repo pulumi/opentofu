@@ -9,10 +9,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/opentofu/opentofu/internal/configs"
-	"github.com/opentofu/opentofu/internal/encryption"
-	"github.com/opentofu/opentofu/internal/encryption/config"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/configs"
+	"github.com/pulumi/opentofu/internal/encryption"
+	"github.com/pulumi/opentofu/internal/encryption/config"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 const encryptionConfigEnvName = "TF_ENCRYPTION"

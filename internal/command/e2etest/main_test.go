@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/opentofu/opentofu/internal/e2e"
+	"github.com/pulumi/opentofu/internal/e2e"
 )
 
 var tofuBin string

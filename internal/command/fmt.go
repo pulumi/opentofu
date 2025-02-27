@@ -20,8 +20,8 @@ import (
 	"github.com/hashicorp/hcl/v2/hclwrite"
 	"github.com/mitchellh/cli"
 
-	"github.com/opentofu/opentofu/internal/configs"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/configs"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 const (

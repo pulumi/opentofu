@@ -9,9 +9,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/opentofu/opentofu/internal/backend"
-	"github.com/opentofu/opentofu/internal/encryption"
-	"github.com/opentofu/opentofu/internal/legacy/helper/schema"
+	"github.com/pulumi/opentofu/internal/backend"
+	"github.com/pulumi/opentofu/internal/encryption"
+	"github.com/pulumi/opentofu/internal/legacy/helper/schema"
 )
 
 const defaultTimeout = 300 // 5 minutes

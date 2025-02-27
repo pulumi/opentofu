@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/opentofu/opentofu/internal/modsdir"
-	"github.com/opentofu/opentofu/internal/registry"
+	"github.com/pulumi/opentofu/internal/modsdir"
+	"github.com/pulumi/opentofu/internal/registry"
 	"github.com/spf13/afero"
 )
 

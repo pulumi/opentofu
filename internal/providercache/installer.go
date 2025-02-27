@@ -15,10 +15,10 @@ import (
 	"github.com/apparentlymart/go-versions/versions"
 	"github.com/apparentlymart/go-versions/versions/constraints"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	copydir "github.com/opentofu/opentofu/internal/copy"
-	"github.com/opentofu/opentofu/internal/depsfile"
-	"github.com/opentofu/opentofu/internal/getproviders"
+	"github.com/pulumi/opentofu/internal/addrs"
+	copydir "github.com/pulumi/opentofu/internal/copy"
+	"github.com/pulumi/opentofu/internal/depsfile"
+	"github.com/pulumi/opentofu/internal/getproviders"
 )
 
 // Installer is the main type in this package, representing a provider installer

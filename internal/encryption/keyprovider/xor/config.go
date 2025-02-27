@@ -8,7 +8,7 @@ package xor
 import (
 	"fmt"
 
-	"github.com/opentofu/opentofu/internal/encryption/keyprovider"
+	"github.com/pulumi/opentofu/internal/encryption/keyprovider"
 )
 
 // Config contains the configuration for this key provider supplied by the user. This struct must have hcl tags in order

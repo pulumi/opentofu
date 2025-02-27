@@ -8,9 +8,9 @@ package tofu
 import (
 	"log"
 
-	"github.com/opentofu/opentofu/internal/configs"
-	"github.com/opentofu/opentofu/internal/dag"
-	"github.com/opentofu/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/configs"
+	"github.com/pulumi/opentofu/internal/dag"
+	"github.com/pulumi/opentofu/internal/states"
 )
 
 // OrphanResourceInstanceTransformer is a GraphTransformer that adds orphaned

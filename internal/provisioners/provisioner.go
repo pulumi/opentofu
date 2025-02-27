@@ -6,8 +6,8 @@
 package provisioners
 
 import (
-	"github.com/opentofu/opentofu/internal/configs/configschema"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/configs/configschema"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 	"github.com/zclconf/go-cty/cty"
 )
 

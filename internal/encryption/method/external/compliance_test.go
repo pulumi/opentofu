@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/opentofu/opentofu/internal/encryption/keyprovider"
-	"github.com/opentofu/opentofu/internal/encryption/method/compliancetest"
-	"github.com/opentofu/opentofu/internal/encryption/method/external/testmethod"
+	"github.com/pulumi/opentofu/internal/encryption/keyprovider"
+	"github.com/pulumi/opentofu/internal/encryption/method/compliancetest"
+	"github.com/pulumi/opentofu/internal/encryption/method/external/testmethod"
 )
 
 func TestComplianceBinary(t *testing.T) {

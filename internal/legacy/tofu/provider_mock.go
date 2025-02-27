@@ -13,8 +13,8 @@ import (
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 
-	"github.com/opentofu/opentofu/internal/configs/hcl2shim"
-	"github.com/opentofu/opentofu/internal/providers"
+	"github.com/pulumi/opentofu/internal/configs/hcl2shim"
+	"github.com/pulumi/opentofu/internal/providers"
 )
 
 var _ providers.Interface = (*MockProvider)(nil)

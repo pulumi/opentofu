@@ -13,9 +13,9 @@ import (
 	"strconv"
 
 	"github.com/lib/pq"
-	"github.com/opentofu/opentofu/internal/backend"
-	"github.com/opentofu/opentofu/internal/encryption"
-	"github.com/opentofu/opentofu/internal/legacy/helper/schema"
+	"github.com/pulumi/opentofu/internal/backend"
+	"github.com/pulumi/opentofu/internal/encryption"
+	"github.com/pulumi/opentofu/internal/legacy/helper/schema"
 )
 
 const (

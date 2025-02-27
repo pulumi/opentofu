@@ -10,9 +10,9 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/encryption/config"
-	"github.com/opentofu/opentofu/internal/experiments"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/encryption/config"
+	"github.com/pulumi/opentofu/internal/experiments"
 	tfversion "github.com/opentofu/opentofu/version"
 )
 

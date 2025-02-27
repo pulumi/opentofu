@@ -8,7 +8,7 @@ package statefile
 import (
 	"io"
 
-	"github.com/opentofu/opentofu/internal/encryption"
+	"github.com/pulumi/opentofu/internal/encryption"
 	tfversion "github.com/opentofu/opentofu/version"
 )
 

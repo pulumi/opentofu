@@ -18,9 +18,9 @@ import (
 
 	version "github.com/hashicorp/go-version"
 	"github.com/hashicorp/terraform-svchost/disco"
-	"github.com/opentofu/opentofu/internal/httpclient"
-	"github.com/opentofu/opentofu/internal/registry/regsrc"
-	"github.com/opentofu/opentofu/internal/registry/test"
+	"github.com/pulumi/opentofu/internal/httpclient"
+	"github.com/pulumi/opentofu/internal/registry/regsrc"
+	"github.com/pulumi/opentofu/internal/registry/test"
 	tfversion "github.com/opentofu/opentofu/version"
 )
 

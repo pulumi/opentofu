@@ -14,11 +14,11 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	viewsjson "github.com/opentofu/opentofu/internal/command/views/json"
-	"github.com/opentofu/opentofu/internal/plans"
-	"github.com/opentofu/opentofu/internal/terminal"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/addrs"
+	viewsjson "github.com/pulumi/opentofu/internal/command/views/json"
+	"github.com/pulumi/opentofu/internal/plans"
+	"github.com/pulumi/opentofu/internal/terminal"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 	tfversion "github.com/opentofu/opentofu/version"
 )
 

@@ -8,9 +8,9 @@ package providers
 import (
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/opentofu/opentofu/internal/configs/configschema"
-	"github.com/opentofu/opentofu/internal/states"
-	"github.com/opentofu/opentofu/internal/tfdiags"
+	"github.com/pulumi/opentofu/internal/configs/configschema"
+	"github.com/pulumi/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/tfdiags"
 )
 
 // Unconfigured represents a provider plugin that has not yet been configured. It has

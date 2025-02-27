@@ -19,20 +19,20 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/backend"
-	"github.com/opentofu/opentofu/internal/configs"
-	"github.com/opentofu/opentofu/internal/configs/configschema"
-	"github.com/opentofu/opentofu/internal/copy"
-	"github.com/opentofu/opentofu/internal/encryption"
-	"github.com/opentofu/opentofu/internal/plans"
-	"github.com/opentofu/opentofu/internal/states"
-	"github.com/opentofu/opentofu/internal/states/statefile"
-	"github.com/opentofu/opentofu/internal/states/statemgr"
+	"github.com/pulumi/opentofu/internal/addrs"
+	"github.com/pulumi/opentofu/internal/backend"
+	"github.com/pulumi/opentofu/internal/configs"
+	"github.com/pulumi/opentofu/internal/configs/configschema"
+	"github.com/pulumi/opentofu/internal/copy"
+	"github.com/pulumi/opentofu/internal/encryption"
+	"github.com/pulumi/opentofu/internal/plans"
+	"github.com/pulumi/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/states/statefile"
+	"github.com/pulumi/opentofu/internal/states/statemgr"
 
-	backendInit "github.com/opentofu/opentofu/internal/backend/init"
-	backendLocal "github.com/opentofu/opentofu/internal/backend/local"
-	backendInmem "github.com/opentofu/opentofu/internal/backend/remote-state/inmem"
+	backendInit "github.com/pulumi/opentofu/internal/backend/init"
+	backendLocal "github.com/pulumi/opentofu/internal/backend/local"
+	backendInmem "github.com/pulumi/opentofu/internal/backend/remote-state/inmem"
 )
 
 // Test empty directory with no config/state creates a local state.

@@ -13,8 +13,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/opentofu/opentofu/internal/cloudplugin/cloudproto1"
-	"github.com/opentofu/opentofu/internal/cloudplugin/mock_cloudproto1"
+	"github.com/pulumi/opentofu/internal/cloudplugin/cloudproto1"
+	"github.com/pulumi/opentofu/internal/cloudplugin/mock_cloudproto1"
 	"go.uber.org/mock/gomock"
 )
 

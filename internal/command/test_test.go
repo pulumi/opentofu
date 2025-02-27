@@ -14,12 +14,12 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/zclconf/go-cty/cty"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	testing_command "github.com/opentofu/opentofu/internal/command/testing"
-	"github.com/opentofu/opentofu/internal/command/views"
-	"github.com/opentofu/opentofu/internal/configs/configschema"
-	"github.com/opentofu/opentofu/internal/providers"
-	"github.com/opentofu/opentofu/internal/terminal"
+	"github.com/pulumi/opentofu/internal/addrs"
+	testing_command "github.com/pulumi/opentofu/internal/command/testing"
+	"github.com/pulumi/opentofu/internal/command/views"
+	"github.com/pulumi/opentofu/internal/configs/configschema"
+	"github.com/pulumi/opentofu/internal/providers"
+	"github.com/pulumi/opentofu/internal/terminal"
 )
 
 func TestTest(t *testing.T) {

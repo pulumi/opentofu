@@ -10,12 +10,12 @@ import (
 
 	"github.com/hashicorp/hcl/v2"
 	"github.com/hashicorp/hcl/v2/gohcl"
-	"github.com/opentofu/opentofu/internal/configs"
-	"github.com/opentofu/opentofu/internal/encryption/config"
-	"github.com/opentofu/opentofu/internal/encryption/keyprovider"
-	"github.com/opentofu/opentofu/internal/encryption/method"
-	"github.com/opentofu/opentofu/internal/encryption/method/unencrypted"
-	"github.com/opentofu/opentofu/internal/encryption/registry"
+	"github.com/pulumi/opentofu/internal/configs"
+	"github.com/pulumi/opentofu/internal/encryption/config"
+	"github.com/pulumi/opentofu/internal/encryption/keyprovider"
+	"github.com/pulumi/opentofu/internal/encryption/method"
+	"github.com/pulumi/opentofu/internal/encryption/method/unencrypted"
+	"github.com/pulumi/opentofu/internal/encryption/registry"
 	"github.com/zclconf/go-cty/cty"
 )
 

@@ -11,10 +11,10 @@ import (
 	"testing"
 
 	"github.com/mitchellh/cli"
-	"github.com/opentofu/opentofu/internal/backend"
-	"github.com/opentofu/opentofu/internal/backend/remote-state/inmem"
-	"github.com/opentofu/opentofu/internal/encryption"
-	"github.com/opentofu/opentofu/internal/states"
+	"github.com/pulumi/opentofu/internal/backend"
+	"github.com/pulumi/opentofu/internal/backend/remote-state/inmem"
+	"github.com/pulumi/opentofu/internal/encryption"
+	"github.com/pulumi/opentofu/internal/states"
 )
 
 func TestStatePush_empty(t *testing.T) {

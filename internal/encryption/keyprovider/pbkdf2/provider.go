@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/opentofu/opentofu/internal/encryption/keyprovider"
+	"github.com/pulumi/opentofu/internal/encryption/keyprovider"
 
 	goPBKDF2 "golang.org/x/crypto/pbkdf2"
 )
