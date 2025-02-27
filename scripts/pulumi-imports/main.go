@@ -48,17 +48,21 @@ func main() {
 		}
 	}
 
-	internals, err := os.ReadDir("internal")
+	uninternalize(".")
+	uninternalize("plans")
+}
+
+func uninternalize(baseDir string) {
+	internals, err := os.ReadDir(filepath.Join(baseDir, "internal"))
 	if err != nil {
 		log.Fatal(err)
 	}
 
 	for _, subdir := range internals {
-		old := filepath.Join("internal", subdir.Name())
-		new := subdir.Name()
+		old := filepath.Join(baseDir, "internal", subdir.Name())
+		new := filepath.Join(baseDir, subdir.Name())
 		if err := os.Rename(old, new); err != nil {
 			log.Fatal(err)
 		}
 	}
-
 }
