@@ -1,7 +1,6 @@
 package configs
 
 import (
-	"github.com/pulumi/opentofu/addrs"
 	"github.com/pulumi/opentofu/internal/configs"
 	"github.com/spf13/afero"
 )
@@ -17,7 +16,7 @@ func NewParser(fs afero.Fs) *Parser {
 }
 
 func NewStaticModuleCall(
-	addr addrs.Module,
+	addr []string, // addrs.Module
 	vars StaticModuleVariables,
 	rootPath string,
 	workspace string,
