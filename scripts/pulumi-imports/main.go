@@ -28,8 +28,8 @@ func main() {
 			log.Fatal(err)
 		}
 
-		search := []byte("github.com/opentofu/opentofu/internal")
-		repl := []byte("github.com/pulumi/opentofu/internal")
+		search := []byte("github.com/opentofu/opentofu")
+		repl := []byte("github.com/pulumi/opentofu")
 
 		newBytes := bytes.ReplaceAll(origBytes, search, repl)
 
