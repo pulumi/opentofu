@@ -1,7 +1,5 @@
 module github.com/pulumi/opentofu
 
-replace github.com/opentofu/opentofu => .
-
 require (
 	cloud.google.com/go/kms v1.15.5
 	cloud.google.com/go/storage v1.36.0
