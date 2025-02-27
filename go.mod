@@ -1,4 +1,6 @@
-module github.com/opentofu/opentofu
+module github.com/pulumi/opentofu
+
+replace github.com/opentofu/opentofu => .
 
 require (
 	cloud.google.com/go/kms v1.15.5
@@ -70,6 +72,7 @@ require (
 	github.com/mitchellh/reflectwalk v1.0.2
 	github.com/nishanths/exhaustive v0.7.11
 	github.com/openbao/openbao/api/v2 v2.1.0
+	github.com/opentofu/opentofu v0.0.0-00010101000000-000000000000
 	github.com/opentofu/registry-address v0.0.0-20230920144404-f1e51167f633
 	github.com/packer-community/winrmcp v0.0.0-20180921211025-c76d91c1e7db
 	github.com/pkg/errors v0.9.1
@@ -188,7 +191,6 @@ require (
 	github.com/googleapis/gnostic v0.5.5 // indirect
 	github.com/grpc-ecosystem/grpc-gateway/v2 v2.16.0 // indirect
 	github.com/hashicorp/go-immutable-radix v1.0.0 // indirect
-	github.com/hashicorp/go-msgpack v0.5.4 // indirect
 	github.com/hashicorp/go-rootcerts v1.0.2 // indirect
 	github.com/hashicorp/go-safetemp v1.0.0 // indirect
 	github.com/hashicorp/go-secure-stdlib/parseutil v0.1.9 // indirect
