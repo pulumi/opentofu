@@ -19,7 +19,7 @@ import (
 	"github.com/pulumi/opentofu/internal/encryption/keyprovider"
 	"github.com/pulumi/opentofu/internal/httpclient"
 	"github.com/pulumi/opentofu/internal/logging"
-	"github.com/opentofu/opentofu/version"
+	"github.com/pulumi/opentofu/version"
 )
 
 // Can be overridden for test mocking

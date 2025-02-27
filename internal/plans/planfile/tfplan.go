@@ -20,7 +20,7 @@ import (
 	"github.com/pulumi/opentofu/internal/plans"
 	"github.com/pulumi/opentofu/internal/plans/internal/planproto"
 	"github.com/pulumi/opentofu/internal/states"
-	"github.com/opentofu/opentofu/version"
+	"github.com/pulumi/opentofu/version"
 )
 
 const tfplanFormatVersion = 3

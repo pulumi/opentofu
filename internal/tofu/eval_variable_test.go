@@ -1394,7 +1394,7 @@ func TestEvalVariableValidations_sensitiveValueDiagnostics(t *testing.T) {
 	// into diagnostic messages with the sensitive mark intact, so that
 	// the values won't be disclosed in the UI.
 	// Earlier versions handled this incorrectly:
-	//    https://github.com/opentofu/opentofu/issues/2219
+	//    https://github.com/pulumi/opentofu/issues/2219
 
 	cfgSrc := `
 		variable "foo" {

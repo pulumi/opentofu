@@ -36,7 +36,7 @@ import (
 	"github.com/pulumi/opentofu/internal/tfdiags"
 	"github.com/pulumi/opentofu/internal/tofu"
 	"github.com/pulumi/opentofu/internal/tofumigrate"
-	tfversion "github.com/opentofu/opentofu/version"
+	tfversion "github.com/pulumi/opentofu/version"
 )
 
 // InitCommand is a Command implementation that takes a Terraform

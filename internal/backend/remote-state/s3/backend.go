@@ -29,7 +29,7 @@ import (
 	"github.com/pulumi/opentofu/internal/httpclient"
 	"github.com/pulumi/opentofu/internal/logging"
 	"github.com/pulumi/opentofu/internal/tfdiags"
-	"github.com/opentofu/opentofu/version"
+	"github.com/pulumi/opentofu/version"
 	"github.com/zclconf/go-cty/cty"
 	"github.com/zclconf/go-cty/cty/gocty"
 )

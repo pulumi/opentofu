@@ -12,7 +12,7 @@ import (
 	"github.com/pulumi/opentofu/internal/states"
 	"github.com/pulumi/opentofu/internal/states/statefile"
 	"github.com/pulumi/opentofu/internal/tofu"
-	"github.com/opentofu/opentofu/version"
+	"github.com/pulumi/opentofu/version"
 )
 
 // NewStateFile creates a new statefile.File object, with a newly-minted

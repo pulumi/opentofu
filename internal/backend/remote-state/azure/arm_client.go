@@ -20,7 +20,7 @@ import (
 	"github.com/hashicorp/go-azure-helpers/sender"
 	"github.com/manicminer/hamilton/environments"
 	"github.com/pulumi/opentofu/internal/httpclient"
-	"github.com/opentofu/opentofu/version"
+	"github.com/pulumi/opentofu/version"
 	"github.com/tombuildsstuff/giovanni/storage/2018-11-09/blob/blobs"
 	"github.com/tombuildsstuff/giovanni/storage/2018-11-09/blob/containers"
 )

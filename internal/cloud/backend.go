@@ -36,7 +36,7 @@ import (
 	"github.com/pulumi/opentofu/internal/states/statemgr"
 	"github.com/pulumi/opentofu/internal/tfdiags"
 	"github.com/pulumi/opentofu/internal/tofu"
-	tfversion "github.com/opentofu/opentofu/version"
+	tfversion "github.com/pulumi/opentofu/version"
 
 	backendLocal "github.com/pulumi/opentofu/internal/backend/local"
 )

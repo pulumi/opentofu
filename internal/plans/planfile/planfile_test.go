@@ -22,7 +22,7 @@ import (
 	"github.com/pulumi/opentofu/internal/plans"
 	"github.com/pulumi/opentofu/internal/states"
 	"github.com/pulumi/opentofu/internal/states/statefile"
-	tfversion "github.com/opentofu/opentofu/version"
+	tfversion "github.com/pulumi/opentofu/version"
 )
 
 func TestRoundtrip(t *testing.T) {

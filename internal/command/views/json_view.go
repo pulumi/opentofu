@@ -13,7 +13,7 @@ import (
 
 	"github.com/pulumi/opentofu/internal/command/views/json"
 	"github.com/pulumi/opentofu/internal/tfdiags"
-	tfversion "github.com/opentofu/opentofu/version"
+	tfversion "github.com/pulumi/opentofu/version"
 )
 
 // This version describes the schema of JSON UI messages. This version must be

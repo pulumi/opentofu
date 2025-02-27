@@ -27,7 +27,7 @@ import (
 	"github.com/pulumi/opentofu/internal/refactoring"
 	"github.com/pulumi/opentofu/internal/states"
 	"github.com/pulumi/opentofu/internal/tfdiags"
-	"github.com/opentofu/opentofu/version"
+	"github.com/pulumi/opentofu/version"
 )
 
 // BuiltinEvalContext is an EvalContext implementation that is used by

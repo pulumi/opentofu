@@ -9,7 +9,7 @@ import (
 	"io"
 
 	"github.com/pulumi/opentofu/internal/encryption"
-	tfversion "github.com/opentofu/opentofu/version"
+	tfversion "github.com/pulumi/opentofu/version"
 )
 
 // Write writes the given state to the given writer in the current state

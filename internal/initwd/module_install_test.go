@@ -287,7 +287,7 @@ func TestModuleInstaller_Prerelease(t *testing.T) {
 			// quirks of our version constraint matching.
 			//
 			// For more information:
-			//     https://github.com/opentofu/opentofu/issues/2117
+			//     https://github.com/pulumi/opentofu/issues/2117
 		},
 		{
 			name:        "err",

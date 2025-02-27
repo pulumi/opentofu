@@ -12,7 +12,7 @@ import (
 	"testing"
 
 	"github.com/pulumi/opentofu/internal/e2e"
-	"github.com/opentofu/opentofu/version"
+	"github.com/pulumi/opentofu/version"
 )
 
 func TestVersion(t *testing.T) {

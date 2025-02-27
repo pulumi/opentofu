@@ -18,7 +18,7 @@ import (
 	"github.com/pulumi/opentofu/internal/encryption"
 	"github.com/pulumi/opentofu/internal/httpclient"
 	"github.com/pulumi/opentofu/internal/legacy/helper/schema"
-	"github.com/opentofu/opentofu/version"
+	"github.com/pulumi/opentofu/version"
 	k8sSchema "k8s.io/apimachinery/pkg/runtime/schema"
 	"k8s.io/client-go/dynamic"
 	"k8s.io/client-go/kubernetes"

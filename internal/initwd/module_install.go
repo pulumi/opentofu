@@ -537,7 +537,7 @@ func (i *ModuleInstaller) installRegistryModule(ctx context.Context, req *config
 			// to combine a prerelease selection with another constraint will
 			// cause all prerelease versions to be excluded from the selection.
 			// For more information:
-			//     https://github.com/opentofu/opentofu/issues/2117
+			//     https://github.com/pulumi/opentofu/issues/2117
 			constraint := req.VersionConstraint.Required.String()
 			acceptableVersions, err := versions.MeetingConstraintsString(constraint)
 			if err != nil {

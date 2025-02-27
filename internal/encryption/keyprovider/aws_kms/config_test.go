@@ -20,7 +20,7 @@ import (
 	"github.com/hashicorp/hcl/v2/gohcl"
 	"github.com/hashicorp/hcl/v2/hclsyntax"
 	"github.com/pulumi/opentofu/internal/httpclient"
-	"github.com/opentofu/opentofu/version"
+	"github.com/pulumi/opentofu/version"
 )
 
 func TestConfig_asAWSBase(t *testing.T) {

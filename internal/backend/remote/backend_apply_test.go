@@ -32,7 +32,7 @@ import (
 	"github.com/pulumi/opentofu/internal/states/statemgr"
 	"github.com/pulumi/opentofu/internal/terminal"
 	"github.com/pulumi/opentofu/internal/tofu"
-	tfversion "github.com/opentofu/opentofu/version"
+	tfversion "github.com/pulumi/opentofu/version"
 )
 
 func testOperationApply(t *testing.T, configDir string) (*backend.Operation, func(), func(*testing.T) *terminal.TestOutput) {

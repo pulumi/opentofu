@@ -21,7 +21,7 @@ import (
 	"github.com/pulumi/opentofu/internal/encryption"
 	"github.com/pulumi/opentofu/internal/httpclient"
 	"github.com/pulumi/opentofu/internal/states/remote"
-	"github.com/opentofu/opentofu/version"
+	"github.com/pulumi/opentofu/version"
 	"google.golang.org/api/option"
 	kmspb "google.golang.org/genproto/googleapis/cloud/kms/v1"
 )

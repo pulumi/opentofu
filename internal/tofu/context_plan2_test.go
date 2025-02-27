@@ -7441,7 +7441,7 @@ import {
 
 func TestContext2Plan_providerForEachWithOrphanResourceInstanceNotUsingForEach(t *testing.T) {
 	// This test is to cover the bug reported in this issue:
-	//    https://github.com/opentofu/opentofu/issues/2334
+	//    https://github.com/pulumi/opentofu/issues/2334
 	//
 	// The bug there was that OpenTofu was failing to evaluate the provider
 	// instance key expression for a graph node representing a "orphaned"

@@ -627,7 +627,7 @@ func (i *Installer) ensureProviderVersionsInstall(
 		var signedHashes []getproviders.Hash
 		// For now, we will temporarily trust the hashes returned by the
 		// installation process that are "SigningSkipped" or "Signed".
-		// This is only intended to be temporary, see https://github.com/opentofu/opentofu/issues/266 for more information
+		// This is only intended to be temporary, see https://github.com/pulumi/opentofu/issues/266 for more information
 		if authResult.Signed() || authResult.SigningSkipped() {
 			// We'll trust new hashes from upstream only if they were verified
 			// as signed by a suitable key or if the signing validation was skipped.

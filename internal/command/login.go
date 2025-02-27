@@ -31,7 +31,7 @@ import (
 	"github.com/pulumi/opentofu/internal/logging"
 	"github.com/pulumi/opentofu/internal/tfdiags"
 	"github.com/pulumi/opentofu/internal/tofu"
-	"github.com/opentofu/opentofu/version"
+	"github.com/pulumi/opentofu/version"
 
 	uuid "github.com/hashicorp/go-uuid"
 	"golang.org/x/oauth2"

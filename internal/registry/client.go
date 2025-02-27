@@ -27,7 +27,7 @@ import (
 	"github.com/pulumi/opentofu/internal/logging"
 	"github.com/pulumi/opentofu/internal/registry/regsrc"
 	"github.com/pulumi/opentofu/internal/registry/response"
-	"github.com/opentofu/opentofu/version"
+	"github.com/pulumi/opentofu/version"
 )
 
 const (

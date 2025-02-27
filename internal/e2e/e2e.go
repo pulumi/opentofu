@@ -253,7 +253,7 @@ func GoBuild(pkgPath, tmpPrefix string) string {
 	if len(os.Getenv("GOCOVERDIR")) != 0 {
 		args = append(args,
 			"-cover",
-			"-coverpkg=github.com/opentofu/opentofu/...",
+			"-coverpkg=github.com/pulumi/opentofu/...",
 		)
 	}
 

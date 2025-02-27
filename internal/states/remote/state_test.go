@@ -19,7 +19,7 @@ import (
 	"github.com/pulumi/opentofu/internal/states"
 	"github.com/pulumi/opentofu/internal/states/statefile"
 	"github.com/pulumi/opentofu/internal/states/statemgr"
-	"github.com/opentofu/opentofu/version"
+	"github.com/pulumi/opentofu/version"
 	tfaddr "github.com/opentofu/registry-address"
 )
 

@@ -16,7 +16,7 @@ import (
 
 	"github.com/pulumi/opentofu/internal/encryption"
 	"github.com/pulumi/opentofu/internal/tfdiags"
-	tfversion "github.com/opentofu/opentofu/version"
+	tfversion "github.com/pulumi/opentofu/version"
 )
 
 // ErrNoState is returned by ReadState when the state file is empty.

@@ -24,7 +24,7 @@ import (
 	"github.com/pulumi/opentofu/internal/states"
 	"github.com/pulumi/opentofu/internal/states/statefile"
 	"github.com/pulumi/opentofu/internal/tofu"
-	"github.com/opentofu/opentofu/version"
+	"github.com/pulumi/opentofu/version"
 )
 
 // FormatVersion represents the version of the json format and will be

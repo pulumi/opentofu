@@ -10,7 +10,7 @@ import (
 
 	"github.com/pulumi/opentofu/internal/encryption"
 	"github.com/pulumi/opentofu/internal/states"
-	tfversion "github.com/opentofu/opentofu/version"
+	tfversion "github.com/pulumi/opentofu/version"
 )
 
 // File is the in-memory representation of a state file. It includes the state

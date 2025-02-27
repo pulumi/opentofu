@@ -22,7 +22,7 @@ import (
 	tfeserver "github.com/pulumi/opentofu/internal/command/testdata/login-tfe-server"
 	"github.com/pulumi/opentofu/internal/command/webbrowser"
 	"github.com/pulumi/opentofu/internal/httpclient"
-	"github.com/opentofu/opentofu/version"
+	"github.com/pulumi/opentofu/version"
 )
 
 func TestLogin(t *testing.T) {

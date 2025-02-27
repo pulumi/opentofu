@@ -54,7 +54,7 @@ import (
 	"github.com/pulumi/opentofu/internal/states/statemgr"
 	"github.com/pulumi/opentofu/internal/terminal"
 	"github.com/pulumi/opentofu/internal/tofu"
-	"github.com/opentofu/opentofu/version"
+	"github.com/pulumi/opentofu/version"
 )
 
 // These are the directories for our test data and fixtures.

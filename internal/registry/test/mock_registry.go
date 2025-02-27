@@ -16,7 +16,7 @@ import (
 	"github.com/pulumi/opentofu/internal/httpclient"
 	"github.com/pulumi/opentofu/internal/registry/regsrc"
 	"github.com/pulumi/opentofu/internal/registry/response"
-	tfversion "github.com/opentofu/opentofu/version"
+	tfversion "github.com/pulumi/opentofu/version"
 )
 
 // Disco return a *disco.Disco mapping registry.opentofu.org, localhost,

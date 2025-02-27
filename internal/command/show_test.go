@@ -24,7 +24,7 @@ import (
 	"github.com/pulumi/opentofu/internal/states"
 	"github.com/pulumi/opentofu/internal/states/statemgr"
 	"github.com/pulumi/opentofu/internal/tofu"
-	"github.com/opentofu/opentofu/version"
+	"github.com/pulumi/opentofu/version"
 )
 
 func TestShow_badArgs(t *testing.T) {

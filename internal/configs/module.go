@@ -13,7 +13,7 @@ import (
 	"github.com/pulumi/opentofu/internal/addrs"
 	"github.com/pulumi/opentofu/internal/encryption/config"
 	"github.com/pulumi/opentofu/internal/experiments"
-	tfversion "github.com/opentofu/opentofu/version"
+	tfversion "github.com/pulumi/opentofu/version"
 )
 
 // Module is a container for a set of configuration constructs that are

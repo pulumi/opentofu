@@ -30,7 +30,7 @@ import (
 	"github.com/pulumi/opentofu/internal/states/remote"
 	"github.com/pulumi/opentofu/internal/tfdiags"
 	"github.com/pulumi/opentofu/internal/tofu"
-	"github.com/opentofu/opentofu/version"
+	"github.com/pulumi/opentofu/version"
 	"github.com/zclconf/go-cty/cty"
 
 	backendLocal "github.com/pulumi/opentofu/internal/backend/local"

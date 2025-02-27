@@ -20,7 +20,7 @@ import (
 	"github.com/pulumi/opentofu/internal/getproviders"
 	"github.com/pulumi/opentofu/internal/replacefile"
 	"github.com/pulumi/opentofu/internal/tfdiags"
-	"github.com/opentofu/opentofu/version"
+	"github.com/pulumi/opentofu/version"
 )
 
 // LoadLocksFromFile reads locks from the given file, expecting it to be a

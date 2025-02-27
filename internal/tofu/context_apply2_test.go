@@ -30,7 +30,7 @@ import (
 	"github.com/pulumi/opentofu/internal/states"
 	"github.com/pulumi/opentofu/internal/states/statefile"
 	"github.com/pulumi/opentofu/internal/tfdiags"
-	"github.com/opentofu/opentofu/version"
+	"github.com/pulumi/opentofu/version"
 )
 
 // Test that the PreApply hook is called with the correct deposed key

@@ -34,7 +34,7 @@ import (
 	"github.com/pulumi/opentofu/internal/configs/hcl2shim"
 	"github.com/pulumi/opentofu/internal/plans"
 	"github.com/pulumi/opentofu/internal/tfdiags"
-	tfversion "github.com/opentofu/opentofu/version"
+	tfversion "github.com/pulumi/opentofu/version"
 	"github.com/zclconf/go-cty/cty"
 	ctyjson "github.com/zclconf/go-cty/cty/json"
 )

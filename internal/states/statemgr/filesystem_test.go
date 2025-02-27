@@ -21,7 +21,7 @@ import (
 	"github.com/pulumi/opentofu/internal/encryption"
 	"github.com/pulumi/opentofu/internal/states"
 	"github.com/pulumi/opentofu/internal/states/statefile"
-	tfversion "github.com/opentofu/opentofu/version"
+	tfversion "github.com/pulumi/opentofu/version"
 )
 
 func TestFilesystem(t *testing.T) {

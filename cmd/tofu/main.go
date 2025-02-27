@@ -29,7 +29,7 @@ import (
 	"github.com/pulumi/opentofu/internal/httpclient"
 	"github.com/pulumi/opentofu/internal/logging"
 	"github.com/pulumi/opentofu/internal/terminal"
-	"github.com/opentofu/opentofu/version"
+	"github.com/pulumi/opentofu/version"
 	"go.opentelemetry.io/otel/trace"
 
 	backendInit "github.com/pulumi/opentofu/internal/backend/init"

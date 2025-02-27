@@ -21,7 +21,7 @@ import (
 	"github.com/pulumi/opentofu/internal/httpclient"
 	"github.com/pulumi/opentofu/internal/registry/regsrc"
 	"github.com/pulumi/opentofu/internal/registry/test"
-	tfversion "github.com/opentofu/opentofu/version"
+	tfversion "github.com/pulumi/opentofu/version"
 )
 
 func TestConfigureDiscoveryRetry(t *testing.T) {

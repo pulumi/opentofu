@@ -31,7 +31,7 @@ import (
 	"github.com/pulumi/opentofu/internal/states"
 	"github.com/pulumi/opentofu/internal/states/statefile"
 	"github.com/pulumi/opentofu/internal/tfdiags"
-	tfversion "github.com/opentofu/opentofu/version"
+	tfversion "github.com/pulumi/opentofu/version"
 	"github.com/zclconf/go-cty/cty"
 )
 

@@ -19,7 +19,7 @@ import (
 	"github.com/pulumi/opentofu/internal/plans"
 	"github.com/pulumi/opentofu/internal/terminal"
 	"github.com/pulumi/opentofu/internal/tfdiags"
-	tfversion "github.com/opentofu/opentofu/version"
+	tfversion "github.com/pulumi/opentofu/version"
 )
 
 // Calling NewJSONView should also always output a version message, which is a

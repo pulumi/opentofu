@@ -25,7 +25,7 @@ import (
 	"github.com/pulumi/opentofu/internal/addrs"
 	"github.com/pulumi/opentofu/internal/httpclient"
 	"github.com/pulumi/opentofu/internal/logging"
-	"github.com/opentofu/opentofu/version"
+	"github.com/pulumi/opentofu/version"
 )
 
 // HTTPMirrorSource is a source that reads provider metadata from a provider
