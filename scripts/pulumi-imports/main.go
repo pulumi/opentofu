@@ -23,6 +23,10 @@ func main() {
 			continue
 		}
 
+		if strings.Contains(f, "pulumi") {
+			continue
+		}
+
 		origBytes, err := os.ReadFile(f)
 		if err != nil {
 			log.Fatal(err)
