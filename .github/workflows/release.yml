@@ -1,3 +1,10 @@
+permissions: write-all # Equivalent to default permissions plus id-token: write
+env:
+  ESC_ACTION_OIDC_AUTH: true
+  ESC_ACTION_OIDC_ORGANIZATION: pulumi
+  ESC_ACTION_OIDC_REQUESTED_TOKEN_TYPE: urn:pulumi:token-type:access_token:organization
+  ESC_ACTION_ENVIRONMENT: imports/github-secrets
+  ESC_ACTION_EXPORT_ENVIRONMENT_VARIABLES: false
 name: release
 
 on:
@@ -26,6 +33,9 @@ jobs:
       packages: write
 
     steps:
+      - name: Fetch secrets from ESC
+        id: esc-secrets
+        uses: pulumi/esc-action@v1
       - name: Set up QEMU cross build support
         uses: docker/setup-qemu-action@53851d14592bedcffcf25ea515637cff71ef929a # v3.3.0
       - name: Set up Docker Buildx
@@ -95,7 +105,7 @@ jobs:
           mkdir -p "$HOME/.cache/snapcraft/download"
           mkdir -p "$HOME/.cache/snapcraft/stage-packages"
         env:
-          SNAPCRAFT_STORE_CREDENTIALS: ${{ secrets.SNAPCRAFT_STORE_TOKEN }}
+          SNAPCRAFT_STORE_CREDENTIALS: ${{ steps.esc-secrets.outputs.SNAPCRAFT_STORE_TOKEN }}
 
       - name: Import GPG key
         if: startsWith(inputs.tag, 'v')
@@ -109,7 +119,7 @@ jobs:
           echo "GPG_FINGERPRINT=${GPG_FINGERPRINT}" >>"${GITHUB_ENV}"
           echo "GPG_KEY_FILE=${GPG_KEY_FILE}" >> "${GITHUB_ENV}"
         env:
-          GPG_TTY: /dev/ttys000  # Set the GPG_TTY to avoid issues with pinentry
+          GPG_TTY: /dev/ttys000 # Set the GPG_TTY to avoid issues with pinentry
 
       - name: Run GoReleaser
         uses: goreleaser/goreleaser-action@5742e2a039330cbb23ebf35f046f814d4c6ff811 # v5.1.0
@@ -120,7 +130,7 @@ jobs:
           # Note: the GPG_FINGERPRINT and GPG_KEY_FILE are defined in the task above. If they are not set,
           # goreleaser won't sign the packages.
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          SNAPCRAFT_STORE_CREDENTIALS: ${{ secrets.SNAPCRAFT_STORE_TOKEN }}
+          SNAPCRAFT_STORE_CREDENTIALS: ${{ steps.esc-secrets.outputs.SNAPCRAFT_STORE_TOKEN }}
           RELEASE_FLAG_PRERELEASE: ${{ inputs.prerelease }}
           RELEASE_FLAG_LATEST: ${{ inputs.latest }}
 
@@ -146,7 +156,7 @@ jobs:
                 PACKAGECLOUD-USERNAME: opentofu
                 PACKAGECLOUD-REPONAME: tofu
                 PACKAGECLOUD-DISTRO: any/any
-                PACKAGECLOUD-TOKEN: ${{ secrets.PACKAGECLOUD_TOKEN }}
+                PACKAGECLOUD-TOKEN: ${{ steps.esc-secrets.outputs.PACKAGECLOUD_TOKEN }}
       - name: Upload RPM packages to PackageCloud
         if: startsWith(inputs.tag, 'v') && "${{ inputs.prerelease }}" != "true"
         uses: computology/packagecloud-github-action@v0.6
@@ -155,4 +165,4 @@ jobs:
                 PACKAGECLOUD-USERNAME: opentofu
                 PACKAGECLOUD-REPONAME: tofu
                 PACKAGECLOUD-DISTRO: rpm_any/rpm_any
-                PACKAGECLOUD-TOKEN: ${{ secrets.PACKAGECLOUD_TOKEN }}
+                PACKAGECLOUD-TOKEN: ${{ steps.esc-secrets.outputs.PACKAGECLOUD_TOKEN }}
