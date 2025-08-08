@@ -16,8 +16,8 @@ import (
 	"github.com/opentofu/svchost/disco"
 	"github.com/opentofu/svchost/svcauth"
 
-	"github.com/opentofu/opentofu/internal/httpclient"
-	"github.com/opentofu/opentofu/internal/logging"
+	"github.com/pulumi/opentofu/httpclient"
+	"github.com/pulumi/opentofu/logging"
 )
 
 const (

@@ -17,15 +17,15 @@ import (
 	"github.com/opentofu/svchost/disco"
 	"github.com/opentofu/svchost/svcauth"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/command"
-	"github.com/opentofu/opentofu/internal/command/cliconfig"
-	"github.com/opentofu/opentofu/internal/command/views"
-	"github.com/opentofu/opentofu/internal/command/webbrowser"
-	"github.com/opentofu/opentofu/internal/getmodules"
-	"github.com/opentofu/opentofu/internal/getproviders"
-	pluginDiscovery "github.com/opentofu/opentofu/internal/plugin/discovery"
-	"github.com/opentofu/opentofu/internal/terminal"
+	"github.com/pulumi/opentofu/addrs"
+	"github.com/pulumi/opentofu/command"
+	"github.com/pulumi/opentofu/command/cliconfig"
+	"github.com/pulumi/opentofu/command/views"
+	"github.com/pulumi/opentofu/command/webbrowser"
+	"github.com/pulumi/opentofu/getmodules"
+	"github.com/pulumi/opentofu/getproviders"
+	pluginDiscovery "github.com/pulumi/opentofu/plugin/discovery"
+	"github.com/pulumi/opentofu/terminal"
 )
 
 // runningInAutomationEnvName gives the name of an environment variable that

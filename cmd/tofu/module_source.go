@@ -9,7 +9,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/opentofu/opentofu/internal/getmodules"
+	"github.com/pulumi/opentofu/getmodules"
 )
 
 func remoteModulePackageFetcher(ctx context.Context, getOCICredsPolicy ociCredsPolicyBuilder) *getmodules.PackageFetcher {

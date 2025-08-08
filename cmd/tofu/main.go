@@ -23,16 +23,16 @@ import (
 	"github.com/mitchellh/cli"
 	"github.com/mitchellh/colorstring"
 
-	"github.com/opentofu/opentofu/internal/addrs"
-	"github.com/opentofu/opentofu/internal/command/cliconfig"
-	"github.com/opentofu/opentofu/internal/command/format"
-	"github.com/opentofu/opentofu/internal/didyoumean"
-	"github.com/opentofu/opentofu/internal/logging"
-	"github.com/opentofu/opentofu/internal/terminal"
-	"github.com/opentofu/opentofu/internal/tracing"
-	"github.com/opentofu/opentofu/version"
+	"github.com/pulumi/opentofu/addrs"
+	"github.com/pulumi/opentofu/command/cliconfig"
+	"github.com/pulumi/opentofu/command/format"
+	"github.com/pulumi/opentofu/didyoumean"
+	"github.com/pulumi/opentofu/logging"
+	"github.com/pulumi/opentofu/terminal"
+	"github.com/pulumi/opentofu/tracing"
+	"github.com/pulumi/opentofu/version"
 
-	backendInit "github.com/opentofu/opentofu/internal/backend/init"
+	backendInit "github.com/pulumi/opentofu/backend/init"
 )
 
 const (
