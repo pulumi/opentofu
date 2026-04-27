@@ -69,6 +69,7 @@ func main() {
 }
 
 func realMain() int {
+	logging.RedirectStdLog()
 	defer logging.PanicHandler()
 
 	// Create a go CPU profile if requested

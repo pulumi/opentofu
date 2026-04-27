@@ -50,8 +50,14 @@ var (
 func init() {
 	logger = newHCLogger("")
 	logWriter = logger.StandardWriter(&hclog.StandardLoggerOptions{InferLevels: true})
+}
 
-	// set up the default std library logger to use our output
+// RedirectStdLog configures the standard library's log package to write
+// through OpenTofu's hclog-based logger. Callers that own the process
+// (e.g. cmd/tofu) should call this during startup. Library consumers
+// should not, because it silently redirects log output for the entire
+// binary. See https://github.com/pulumi/pulumi-service/issues/41998
+func RedirectStdLog() {
 	log.SetFlags(0)
 	log.SetPrefix("")
 	log.SetOutput(logWriter)
