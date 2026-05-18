@@ -9,9 +9,12 @@ package tofu
 // github.com/pulumi-proserv/pulumi-tool-terraform-migrate to build and walk
 // the eval graph once and reuse scopes for multiple module instances.
 
+// ContextPluginsType is the exported alias for the internal contextPlugins type.
+type ContextPluginsType = contextPlugins
+
 // ContextPlugins returns the plugin library from a Context, allowing
 // external callers to construct an EvalGraphBuilder.
-func (c *Context) ContextPlugins() *contextPlugins {
+func (c *Context) ContextPlugins() *ContextPluginsType {
 	return c.plugins
 }
 
